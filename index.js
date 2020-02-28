@@ -4,8 +4,7 @@ CLASSES = {
   2: 'Ponder',
 };
 
-const MODEL_PATH =
-    'model.json';
+const MODEL_PATH = document.URL + 'model.json';
 
 const IMAGE_SIZE = 150;
 const TOPK_PREDICTIONS = 3;
